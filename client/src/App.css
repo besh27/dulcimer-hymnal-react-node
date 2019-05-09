@@ -1,0 +1,172 @@
+html, #root {
+  background-color:#eaeaea;
+}
+h1, h2, h3{
+  color: rgba(88, 19, 21, 1)
+}
+h4, h5, h6{
+  color:  rgba(55, 102, 140, 1);
+}
+
+.volume-arrangements section::-webkit-scrollbar {
+  display: none;
+}
+
+.volume-arrangements section::-webkit-scrollbar-track {
+  display: none;
+}
+
+.volume-arrangements section::-webkit-scrollbar-thumb {
+display: none;
+}
+.volume-arrangements h3{
+  margin-bottom: -2px;
+}
+
+.main {
+  padding-top: 75px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+nav {
+  background-color: rgba(3, 63, 99, 1) !important;
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  color:#fff;
+}
+
+.navbar{
+  background-color: rgba(3, 63, 99, 1) !important;
+}
+
+.mr-auto.navbar-nav {
+  margin-left: 25px;
+}
+
+.dropdown.nav-item {
+  margin-right: 20px;
+}
+.navbar-toggler{
+  color: #fff;
+  border-color: #fff;
+}
+.navbar-light .navbar-brand{
+  color:#fff !important
+}
+.navbar-light .navbar-nav .nav-link{
+  color:#fff !important
+}
+
+.carousel {
+  height: 400px;
+  overflow: hidden;
+  border: 3px solid #000;
+  margin-bottom: 25px;
+}
+.carousel-item{
+  background-color: #000;
+  height: 400px;
+}
+
+.hymnalCard {
+  border: 3px solid #fff;
+  background-color: #fff;
+  margin: 10px 0px;
+  width: 30%;
+}
+
+.hymnalCard h2{
+  display:block;
+  background-color:#0a0a0a;
+  color:#fff;
+  margin: 0px;
+}
+
+.filters {
+  margin-top: 38px;
+}
+
+.list-group-item{
+  margin: 10px 0px;
+}
+
+.list-group-item section {
+  border-top: #e1e1e1 solid 1px;
+  font-size: 1em;
+}
+
+
+.hymnalCardInfo {
+  background-color: #fff;
+  color: #0a0a0a;
+  list-style: none;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.hymnalCardInfo li span{
+  font-weight: 700;
+}
+
+.filters.col-4 {
+  margin-top: 38px;
+  position: sticky;
+  top: 100px; 
+}
+
+/* Hymnal Pages */
+.volume-info, .about-info {
+  background-color: #fff;
+  padding: 10px 10px 1px 10px;
+  margin: -5px 0px 15px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.about-info {
+  min-height: 436px;
+}
+
+.volume-arrangements section {
+  max-height: 858px;
+  overflow: scroll;
+}
+
+.list-group-item {
+  overflow: hidden;
+}
+
+
+/* About */
+.about-image {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0px 1px;
+  background-color: #eaeaea;
+  margin: 0px;
+  font-size: .9em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

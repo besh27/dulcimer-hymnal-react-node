@@ -1,0 +1,24 @@
+{
+  "name": "the-dulcimer-hymnal-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"yarn server\" \"yarn client \""
+  },
+  "author": "Benjamin Esh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.19.0",
+    "xoauth2": "^1.2.0",
+    "yarn": "^1.15.2"
+  }
+}
